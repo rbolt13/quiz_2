@@ -39,7 +39,7 @@ $F\circ(G\circ H)=(F\circ G)\circ H$
 
 \begin{equation}\label{D14,1}
 \begin{split}
-F\circ(G\circ H) &= F\circ (G\circ H)(\square 1234)\\\
+F\circ(G\circ H) &= F\circ (G\circ H)(\square 1234)\\
 &= F(G\circ H (\square 1234))\\
 &= F(G(H(\square 1234)))\\
 &= (F\circ G)\circ H(\square 1234)
@@ -50,7 +50,7 @@ F\circ(G\circ H) &= F\circ (G\circ H)(\square 1234)\\\
 
 e 
 
-Example: $R_{O,180^\circ}\circ R_{O,180^\circ}=e$
+Example: $R_{O,180^\circ}\circ e=R_{O,180^\circ}$
 
 ## 3. Inverses: 
 
