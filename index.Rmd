@@ -1,0 +1,22 @@
+---
+title: "Math 338 - Quiz 2"
+subtitle: "Due Friday 2/25"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+output:
+  html_document:
+    theme: simplex
+---
+
+![](https://media.giphy.com/media/26vUucK24XyuAy9a0/giphy.gif)
+
+_Prove for the following statement using course resources such as our notes and textbooks. Your proof should be your own work, so you should not use any other resources. Record a short presentation or create a slideshow explaining your proof. Make sure that you clearly state any definitions, axioms, or theorems that you are using._
+
+# Suppose _R_ is a non-square rhombus.
+
+1. List the symmetries of R. Write as a composition of translations, reflections, and rotations. 
+
+2. Prove that the set of symmetries of _R_ is a group under composition. 

@@ -1,0 +1,67 @@
+---
+title: "Group Under Composition"
+subtitle: "2. Prove that the set of symmetries of _R_ is a group under composition."
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'guc.html'))})
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: simplex
+---
+
+![](https://media.giphy.com/media/n3huUe5YwYzwbrrgFc/giphy.gif)
+
+Define the set of symmetries of a rhombus as $$\mathscr{S}=\{e, R_{\text{ }O,\text{ }180^\circ}, r_{m_1}, r_{m_1}\}.$$
+
+Claim $\mathscr{S}$ is a group under composition. 
+
+## 0. Closure: 
+
+We want to show that comosing two symmetries equals a symmetry. 
+
+Let $\square 1234$ be a non-square rhombus, and suppose F and G are in $\mathscr{S}$. 
+
+$$F\circ G(\square 1234)=F(G(\square 1234))=F(\square 1234)=\square 1234$$
+
+For example: 
+
+Let $F=r_{m_1}$ and $G=r_{m_2}$. Then $F\circ G(\square 1234)=R_{O,180^\circ}$. 
+
+img.
+
+## 1. Associative:
+
+$F\circ(G\circ H)=(F\circ G)\circ H$
+
+\begin{equation}\label{D14,1}
+\begin{split}
+F\circ(G\circ H) &= F\circ (G\circ H)(\square 1234)\\\
+&= F(G\circ H (\square 1234))\\
+&= F(G(H(\square 1234)))\\
+&= (F\circ G)\circ H(\square 1234)
+\end{split}
+\end{equation}
+
+## 2. Identity: 
+
+e 
+
+Example: $R_{O,180^\circ}\circ R_{O,180^\circ}=e$
+
+## 3. Inverses: 
+
+Every symmetry of a rhombus undoes itself. 
+
+$e\circ e=e$
+
+$R_{O,180^\circ}\circ R_{O,180^\circ}=e$
+
+$r_{m_1}\circ r_{m_1}=e$
+
+$r_{m_2}\circ r_{m_2}=e$
+
+

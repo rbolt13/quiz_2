@@ -1,0 +1,19 @@
+---
+name: "quiz_2"
+output_dir: "docs"
+output:
+  html_document:
+navbar:
+  title: "Quiz 2"
+  left:
+    - text: "About"
+      href: index.html
+    - text: "Definitions"
+      href: def.html
+    - text: "Symmetries of R"
+      href: symmR.html
+    - text: "Group Under Composition"
+      href: guc.html
+    - text: "Contact"
+      href: contact.html
+---
